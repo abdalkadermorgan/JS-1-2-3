@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+}
+
+.content {
+    display: flex;
+}
+
+.main {
+    margin-top:10px ;
+    display: inline-block;
+    width: 50%;
+}
+
+.main .personal-info {
+    border: 2px solid #F0C70E;
+    padding: 20px;
+    display: inline-block;
+    
+}
+
+.main h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.main .personal-info h1 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.main .personal-info input {
+    margin-left: 20px;
+    float: right;
+}
+
+.info {
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.info>h1 {
+    font-size: 30px;
+}
+
+
+.info .your-info {
+    padding: 20px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.info .your-info h1{
+    font-size: 25px;
+    display: inline-block;
+}
+
+.info .your-info p {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #2e77ae;
+    font-weight: bold;
+}
+
+.info .your-info h1,p {
+    margin-bottom: 20px;
+}
+
+.calculate {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.calculate .value {
+    width: 50%;
+}
+
+.calculate .value .calc button {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.calculate .num {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.result p {
+    font-size: 25px;
+    color: #2e77ae;
+    font-weight: bold;
+}
+
+.avareg {
+    margin-top: 50px;
+}
+
+.avareg button {
+    margin-bottom: 20px;
+}
+
+.average {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2e77ae;
+}
+
+.test {
+    margin-top: 80px;
+}
+
+.singenumber {
+    margin-top: 100px;
+}
+
+.singenumber label {
+    font-size: 25px;
+    color: #26608d;
+}
+
+.btn-num {
+    margin-top: 30px;
+}
+
+.arraytest {
+    display: inline-block;
+    margin-top: 100px;
+    width: 100%;
+    justify-content: space-between;
+}
+.array {
+    display: inline-block;
+    width: 50%;
+}
+
+.array .input-slice {
+    margin-top: 30px;
+}
+
+.array button {
+    margin-top: 20px;
+}
+
+.arraysub {
+    display: inline-block;
+    width: 49%;
+    justify-content: right;
+}
+
+.arraysub button {
+    margin-top: 20px;
+}
+.arraysub .input-substr {
+    margin-top: 30px;
+}
+
+.substring{
+    margin-top: 50px;
+}
+.substring button {
+    margin-top: 20px;
+}

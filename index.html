@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="main" id="main">
+        <h1>Personal Information</h1>
+        <div class="personal-info">
+          <div class="name">
+            <h1>First Name:</h1>
+            <input type="text" id="name" value="">
+          </div>
+          <div class="age">
+            <h1>Age:</h1>
+            <input type="number" id="age">
+          </div>
+          <div class="email">
+            <h1>Email:</h1>
+            <input type="email" id="email">
+          </div>
+  
+          <div class="phone">
+            <h1>Phone Number:</h1>
+            <input type="number" id="phone">
+          </div>
+          <button class="btn btn-warning" type="submit" onclick="personalinfo()">Print</button>
+        </div>
+      </div>
+  
+      <div class="info">
+        <h1>your Personal Information</h1>
+        
+        <div class="your-info">
+          <div class="your-name">
+            <h1>Your Name:</h1>
+            <p id="your-name">test</p>
+          </div>
+        
+        <div class="age">
+          <div class="your-age">
+            <h1>Your Age:</h1>
+            <p id="your-age">test</p>
+          </div>
+        </div>
+  
+        <div class="email">
+          <div class="your-email">
+            <h1>Your email:</h1>
+            <p id="your-email">test</p>
+          </div>
+        </div>
+  
+        <div class="phone">
+          <div class="your-phone">
+            <h1>Your Phone:</h1>
+            <p id="your-phone">test</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div> 
+    
+
+    <div class="calculate">
+      
+      <div class="value">
+      <h1>Calculate</h1>
+      <input type="number" id="num1" class="num" placeholder="input number one ..">
+      <input type="number" id="num2" class="num" placeholder="input number tow ..">
+      <div class="calc" id="calc">
+        <button class="btn btn-outline-warning" onclick="add()">+</button>
+        <button class="btn btn-outline-warning" onclick="Sub()">-</button>
+        <button class="btn btn-outline-warning" onclick="divide()">/</button>
+        <button class="btn btn-outline-warning" onclick="multiply()">*</button>
+        </div>
+      </div>
+      
+      <div class="result">
+        <h1>your Result</h1>
+        <p id="result">test</p>
+      </div>
+    </div>
+
+    <div class="avareg">
+      <button class="btn btn-outline-warning" onclick="avareg()">Avareg</button>
+      <h1>Avareg for input number:</h1>
+      <p id="avareg" class="average"></p>
+    </div>
+
+    <div class="test">
+      <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text btn btn-outline-warning" id="inputGroup-sizing-lg" onclick="testLogin()">Test</span>
+        </div>
+        <input type="text" class="form-control" id="test" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+      </div>
+    </div>
+
+    <div class="singenumber">
+      <label id="array">
+        {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}
+      </label>
+      <span id="odd"></span>
+      <div class="btn-num">
+        <button class="btn btn-outline-warning" onclick="number()">Odd Number</button>
+        <button class="btn btn-outline-warning" onclick="number2()">Even Number</button>
+      </div>
+    </div>
+    <div class="arraytest">
+      <div class="array">
+        <div class="slice-array">
+          <h1>Slice Array</h1>
+          <p>[dog,cat,elephant,bison,donkey,monkey]</p>
+          <p id="slice-result" style="color: chocolate;">input value</p>
+          <div class="input-slice">
+            <input  id="slice1">
+            <input  id="slice2">
+          </div>
+          <button class="btn btn-outline-warning" onclick="arraySlice()">click</button>
+        </div>
+      </div>
+      <div class="arraysub">
+        <h1>SubStr</h1>
+        <p id="substr">I'm worked JavaScript</p>
+        <p id="substr-result" style="color: chocolate;">input value</p>
+        <div class="input-substr">
+          <input id="substr1">
+          <input id="substr2">
+        </div>
+        <button class="btn btn-outline-warning" onclick="substr()">click</button>
+      </div>
+      <div class="substring">
+        <h1>SubString</h1>
+        <p id="substring">I'm worked JavaScript</p>
+        <p id="substring-result" style="color: chocolate;">input value</p>
+        <div class="input-substring">
+          <input id="substring1">
+          <input id="substring2">
+        </div>
+        <button class="btn btn-outline-warning" onclick="substring()">click</button>
+      </div>
+    </div>
+    
+  </div>
+
+
+
+
+
+    <script src="main.js"></script>   
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>   
+</body>
+</html>
